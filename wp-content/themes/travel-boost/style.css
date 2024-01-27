@@ -1,0 +1,36 @@
+/*
+Theme Name: Travel Boost
+Theme URI: https://www.eaglevisionit.com/downloads/travel-boost
+Author: Eagle Vision IT
+Author URI: https://www.eaglevisionit.com
+Description:Travel Boost is a powerful, full-site editing WordPress theme specifically designed to help you build a stunning and functional travel website. It integrates seamlessly with WooCommerce and WP Travel, providing you with all the tools you need to showcase your tours, destinations, services, and more. Enhanced further with the WC Booster plugin, this theme is entirely centered around the WooCommerce and WordPress plugin ecosystem. It offers unparalleled versatility, making it ideal for various online store niches including fashion, electronics, medical supplies, furniture, sports equipment, home décor, jewelry, and more. Explore the live demo for a closer look at its capabilities. Check the real demo: https://demos.eaglevisionit.com/travel-boost/
+Tested up to: 6.4
+Requires PHP: 7.4
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: travel-boost
+Tags: editor-style, blog, custom-background, custom-logo, custom-menu, e-commerce, featured-images, footer-widgets, full-site-editing, left-sidebar, one-column, portfolio, right-sidebar, threaded-comments, translation-ready, two-columns, wide-blocks, full-width-template, sticky-post, theme-options, block-styles, block-patterns
+*/
+
+/* margin while block start*/
+
+:where(.wp-site-blocks) > * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* margin while block start end*/
+
+ .wp-travel-form-field.full-width.textarea-field{
+    display: none;
+}
+#wp-travel-enquiries{
+    padding: 0;
+}
+#wp-travel-enquiries .wp-travel-form-field label{
+    line-height: 1px;
+}
+.wptravel-block-trip-search .wp-travel-search form input:not(.button) {
+    line-height: 1.3 !important;
+}

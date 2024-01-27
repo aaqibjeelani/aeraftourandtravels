@@ -1,0 +1,67 @@
+/* banner */
+
+.wptravel-block-trip-search .wp-travel-search form input,.wptravel-block-trip-search .wp-travel-search form select{
+    padding: 17px 25px;
+}
+.wp-travel-search form p label{
+    color: #fff;
+    font-size: large;
+}
+.wp-travel-search form p input, .wp-travel-search form p select option,.wp-travel-search form p select{
+    font-size: large;
+}
+
+/* banner end*/
+
+/* header */
+.wp-block-navigation-item__content {
+    padding-bottom: 3px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .wp-block-navigation-item__content::before {
+    margin-top: 2px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    height: 2px;
+    background: #000; /* Change this to your desired underline color */
+    transition: right 0.3s;
+  }
+
+  .wp-block-navigation-item__content:hover::before {
+    right: 0;
+  }
+  .wp-block-navigation-submenu li a:hover::before{
+    right: 50%;
+  }
+
+/* header */
+
+/* scrool to top */
+.boost-scrool-top::before{
+    font-size: 17px;
+    padding: 8px 14px;
+    cursor: pointer;
+    background: var(--wp--preset--color--hover);
+    color: white;
+    content: "\f106"; /* Specify the Unicode character for the desired icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+.boost-scrool-top:hover::before{
+  background: var(--wp--preset--color--button-hover);
+}
+
+/* scrool to top */
+
+.wp-travel-enquiries-form#wp-travel-enquiries{
+  padding: 15px;
+}

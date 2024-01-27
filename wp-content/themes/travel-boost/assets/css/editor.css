@@ -1,0 +1,164 @@
+/*---------------iteratoy page----------------*/
+.archive-itrineraties-left-column{
+    border: 1px solid #C7D0D9;
+    padding: 13px;
+    border-radius: 11px;
+}
+.wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field {
+    margin-bottom: 24px;
+}
+
+.wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field input,.wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field select{
+    margin: 4px 0;
+}
+
+.wp-block-separator{
+    color:#C7D0D9;
+}
+/* .wp-block-button__link{
+    line-height: 2.6px;
+} */
+.archive-itineraries-trip{
+    padding: 13px;
+    border: solid 1px #C7D0D9;
+    border-radius: 13px;
+}
+button.btn-submit {
+    width: 135px;
+}
+.send_email_checkbox{
+    display:none!important;
+}
+.wp_travel_downloads_tab_title_caption a{
+    display: none;
+}
+#wptravel-trip-downloads-block{
+    background: var(--wp--preset--color--hover);;
+    padding: 8px 0px;
+    display: flex;
+    border-radius: 4px;
+}
+#wptravel-trip-downloads-block:hover{
+    background:var(--wp--preset--color--button-hover);
+}
+.wp-travel-downloads-listings-public {
+     display: grid; 
+     text-align: center;
+     grid-template-columns: 102px 1fr!important;
+     grid-gap: 0px!important; 
+     margin-bottom:0px!important;
+}
+.wp-travel-downloads-listings-public a img{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+/*---------------iteratoy page----------------*/
+
+.trip-durations::before {
+    content: "\f017";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px;/* Adjust the spacing between the icon and the text */
+}
+
+
+.trip-locations::before {
+    content: "\f3c5"; /* Specify the Unicode character for the desired icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+
+.trip-group::before{
+    content: "\e592"; /* Specify the Unicode character for the desired icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+
+.trip-review::before{
+    content: "\f005"; /* Specify the Unicode character for the desired icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+.trip-box{
+    border-radius: 4px;
+    box-shadow: 0 20px 38px rgba(0,0,0,.15);
+    transition: all ease .3s;
+}
+.trip-box:hover{
+    box-shadow: 0 20px 38px rgba(0,0,0,.15)
+}
+
+/*---------------iteratoy page----------------*/
+
+/*---------------taxonomy-itinerary_types----------------*/
+.taxonomy-columns:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/*---------------taxonomy-itinerary_types----------------*/
+
+/*---------------taxonomy-itinerary_types----------------*/
+.blog-column:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/*---------------taxonomy-itinerary_types----------------*/
+
+.home a, .travel-boost-header a, .travel-boost-footer a{
+    text-decoration: none;
+}
+
+.wp-block-post-date::before{
+    content: "\f073"; /* Specify the Unicode character for the desired icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+}
+.taxonomy-category:before{
+    content: "\f03a"; 
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+ul.wp-block-categories-list.wp-block-categories{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul.wp-block-categories-list.wp-block-categories li::before{
+    content: "\f03a"; 
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.page-numbers{
+	background: var(--wp--preset--color--hover);
+    margin: 0 5px 5px 0;
+    padding: 0 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: inline-block;
+    color: var(--wp--preset--color--white);
+}
+
+.page-numbers:hover{
+	color: var(--wp--preset--color--white) ;
+}
+
+.page-numbers.dots{
+	background-color: transparent;
+}
+
+.wp-block-query-pagination{
+	gap: 10px;
+}
+
+.boost-column-trip{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
