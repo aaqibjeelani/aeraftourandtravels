@@ -112,7 +112,7 @@
           </div>
           <div class="col-lg-3">
             <h3>Contact</h3>
-            <p>Cell: 9596344683, 9419039589,<br>Email:aerafsgr@yahoo.com | aerafsgr@gmail.com</p>
+            <p>Cell: 9596344683, 9419039589,<br>Email:aerafsgr@yahoo.com | aerafsgr@gmail.com</p> 
           </div>
         </div>
       </div>
@@ -897,8 +897,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
-                </div>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="standard-access" onclick="redirectToWhatsApp('+919596344683')">Buy Now</button>                </div>
               </div>
             </div>
           </div>
@@ -918,7 +917,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="pro-access" onclick="redirectToWhatsApp('+919596344683')">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -940,8 +939,7 @@
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
-                </div>
+                  <button type="button" class="btn" data-bs-toggle="modal" href="" data-ticket-type="premium-access" onclick="redirectToWhatsApp('+919596344683')">Buy Now</button>                </div>
 
               </div>
             </div>
@@ -1139,6 +1137,15 @@
   <script src="script.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    function redirectToWhatsApp(phoneNumber) {
+        // Construct the WhatsApp link with the provided phone number
+        var whatsappLink = 'https://wa.me/' + phoneNumber;
+
+        // Redirect the window to the WhatsApp link
+        window.location.href = whatsappLink;
+    }
+</script>
 
 </body>
 
