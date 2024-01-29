@@ -465,7 +465,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #f82249;
+  color: #2622f8;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -647,7 +647,6 @@ h6 {
     opacity: 0;
   }
 }
-
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -676,11 +675,26 @@ h6 {
   right: 0;
 }
 
+#about h2,
+#about h3,
+#about p {
+  color: #fff; /* Set default text color to white */
+}
+
+#about a {
+  color: #fff700; /* Set link color to blue */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+#about a:hover {
+  color: #6441ff; /* Change link color to white on hover */
+}
+
 #about h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
 }
 
 #about h3 {
@@ -688,13 +702,11 @@ h6 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1462,7 +1474,7 @@ h6 {
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #f82249;
+  background: #3d02ff;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1472,7 +1484,7 @@ h6 {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #e0072f;
+  background: #052df7;
 }
 
 @keyframes animate-loading {
@@ -1548,7 +1560,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #6800f9;
   color: #fff;
 }
 
@@ -1559,7 +1571,7 @@ h6 {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #0d00ff;
 }
 
 #footer .footer-top .footer-links {
@@ -1574,7 +1586,7 @@ h6 {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #6a02f3;
   font-size: 18px;
 }
 
@@ -1592,7 +1604,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: #5f22f8;
 }
 
 #footer .footer-top .footer-contact {
@@ -1614,7 +1626,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
-  background: #f82249;
+  background: #1e00ff;
   border: 0;
   width: 35%;
   padding: 6px 0;
