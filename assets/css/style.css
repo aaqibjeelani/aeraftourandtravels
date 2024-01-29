@@ -129,7 +129,7 @@ h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: #8A2BE2;
 }
 
 .section-with-bg {
@@ -151,7 +151,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(17, 52, 180, 0.98);
   height: 70px;
 }
 
@@ -424,7 +424,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #060c22;
+  color: #8A2BE2;
 }
 
 .navbar-mobile a:hover,
@@ -492,7 +492,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(38, 53, 110, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1489,14 +1489,14 @@ h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #101522;
+  background: #131022;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #8A2BE2;
   padding: 60px 0 30px 0;
 }
 
