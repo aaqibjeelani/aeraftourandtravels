@@ -190,11 +190,11 @@ h6 {
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #f82249;
+  background: #3f22f8;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #4438f4;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -529,7 +529,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #f82249;
+  color: #3f22f8;
 }
 
 @media (max-width: 991px) {
@@ -628,11 +628,11 @@ h6 {
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #2922f8;
 }
 
 #hero .about-btn:hover {
-  background: #f82249;
+  background: #2922f8;
   color: #fff;
 }
 
@@ -749,7 +749,7 @@ h6 {
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: #3b22f8;
 }
 
 #speakers .speaker:hover .details {
@@ -786,7 +786,7 @@ h6 {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #5822f8;
   color: #fff;
 }
 
@@ -849,7 +849,7 @@ h6 {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #2d22f8;
   color: #fff;
 }
 
@@ -1029,7 +1029,7 @@ h6 {
 }
 
 #hotels a:hover {
-  color: #f82249;
+  color: #2237f8;
 }
 
 #hotels .stars {
@@ -1244,7 +1244,7 @@ h6 {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #3f22f8;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1253,7 +1253,7 @@ h6 {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #0b07e0;
 }
 
 @media (max-width: 460px) {
@@ -1637,4 +1637,31 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  display: none;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
